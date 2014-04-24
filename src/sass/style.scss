@@ -8,7 +8,8 @@
 //Fonts
 // @import "/assets/fonts/gentona/gentona.css";
 // @import "/assets/fonts/quadon/quadon.css";
-@import url(http://fonts.googleapis.com/css?family=Raleway:100);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+// @import url(http://fonts.googleapis.com/css?family=Raleway:100);
 
 // Partials (actual CSS)
 @import "partials/layout";
@@ -31,8 +32,10 @@ body {
 }
 
 .message {
-  font-size: 18.0rem;
-  font-family: 'Raleway', sans-serif;
+  font-size: 28.8rem;
+  font-family: 'Amatic SC', sans-serif;
+  // font-size: 18.0rem;
+  // font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-style: normal;
   color: $white;
