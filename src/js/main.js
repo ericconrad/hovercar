@@ -73,12 +73,12 @@ function hovercar (cars, plates) {
 
     function checkFontSize (plate) {
       var dims = getDimensions(plate);
-      if ( dims.width >= (dims.parent.width * 0.9) ) {
+      if ( (dims.width >= (dims.parent.width * 0.9)) || (dims.height >= (dims.parent.height * 0.9)) ) {
         fontResize(0.9, plate);
         checkFontSize(plate);
-      } else if ( dims.width < (dims.parent.width * 0.8) && newFontSize < fontSize ) {
+      } else if ( (dims.width < (dims.parent.width * 0.8)) && (dims.height < (dims.parent.height * 0.8)) && (newFontSize < fontSize) ) {
         fontResize(1.11111111, plate);
-      } else if ( dims.width < (dims.parent.width * 0.8) && newFontSize >= fontSize ) {
+      } else if ( (dims.width < (dims.parent.width * 0.8)) && (dims.height < (dims.parent.height * 0.8)) && (newFontSize >= fontSize) ) {
         newFontSize = fontSize;
       } else {
         return;
