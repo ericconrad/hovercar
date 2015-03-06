@@ -4,16 +4,21 @@
 	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><%= page.title || "Untitled Prototype" %></title>
-	<link rel="stylesheet" href="/assets/style.css" />
-	<% if (page.customCss) { %>
-	<link rel="stylesheet" href="/assets/<%= page.customCss %>" />
-	<% } %>
-	<!-- <script src="/assets/js/vendor/modernizr.js"></script> -->
+	<title>Untitled Prototype</title>
+	<link rel="stylesheet" href="assets/style.css" />
+
+	<!-- <script src="assets/js/vendor/modernizr.js"></script> -->
 </head>
 <body>
-	<%= page.content %>
-	<script src="/assets/main.js"></script>
+	<div class="section">
+<!--   <img class="hovercar" src="https://farm3.staticflickr.com/2865/13626384063_a2f20a45bd_b.jpg"> -->
+  <video class="hovercar" autoplay loop>
+  	<source src="assets/video/interactive-wall-1200x600.mp4" type="video/mp4">
+  	<source src="assets/video/interactive-wall-1200x600.webmhd.webm" type="video/webm">
+  </video>
+  <span class="message license-plate">HOVERCAR</span>
+</div>
+	<script src="assets/main.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <!--
     <script>

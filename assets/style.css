@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+.white-bg {
+  background-color: #FFFFFF; }
+
+.gray1-bg {
+  background-color: #E5E2E0; }
+
+.gray2-bg {
+  background-color: #B4B2AD; }
+
+.gray3-bg {
+  background-color: #7E7E7C; }
+
+.gray4-bg {
+  background-color: #4A484C; }
+
+.gray5-bg {
+  background-color: #2C2C33; }
+
+.black-bg {
+  background-color: #000000; }
+
+.nursing-stairwell-bg {
+  background-color: #D9C89E; }
+
+.new-custard-bg {
+  background-color: #CBA052; }
+
+.telescope-ceiling-bg {
+  background-color: #DDA46F; }
+
+.building-brick-bg {
+  background-color: #AA8066; }
+
+.mason-doors-bg {
+  background-color: #9E5330; }
+
+.logo-blue-bg {
+  background-color: #002D72; }
+
+.basin-bg {
+  background-color: #003D4C; }
+
+.stained-glass-bg {
+  background-color: #6399AE; }
+
+.jay-bg {
+  background-color: #6CACE4; }
+
+.sparta-bg {
+  background-color: #005EB8; }
+
+.brody-wall-bg {
+  background-color: #418FDE; }
+
+.slate-bg {
+  background-color: #A7BCD6; }
+
+.light-purple-bg {
+  background-color: #7C7FAB; }
+
+.ballpoint-bg {
+  background-color: #24135F; }
+
+.beet-it-bg {
+  background-color: #470A68; }
+
+.new-medical-gloves-bg {
+  background-color: #8E3A80; }
+
+.pathway-brick-bg {
+  background-color: #86647A; }
+
+.bubblegum-bg {
+  background-color: #EF4A81; }
+
+.tricias-pants-bg {
+  background-color: #6F2C3F; }
+
+.red-clay-bg {
+  background-color: #8A2A2B; }
+
+.newer-hut-glass-bg {
+  background-color: #E03C31; }
+
+.copper-roof-bg {
+  background-color: #E8927C; }
+
+.burnt-orange-bg {
+  background-color: #CF4520; }
+
+.tangerine-bg {
+  background-color: #FF6900; }
+
+.barista-bg {
+  background-color: #623412; }
+
+.creamsicle-bg {
+  background-color: #FF9E1B; }
+
+.sunlight-bg {
+  background-color: #FBD872; }
+
+.new-academic-gold-bg {
+  background-color: #FFCD00; }
+
+.lemon-bg {
+  background-color: #F7EA48; }
+
+.cty-green-bg {
+  background-color: #D2D755; }
+
+.java-bg {
+  background-color: #4E5B31; }
+
+.oak-leaves-bg {
+  background-color: #74AA50; }
+
+.magnolia-leaves-bg {
+  background-color: #44693D; }
+
+.spearmint-bg {
+  background-color: #007A53; }
+
+.new-copper-petina-bg {
+  background-color: #86C8BC; }
+
+.bright-turquoise-bg {
+  background-color: #00AB8E; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.center {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  min-width: 240px; }
+
+.message {
+  font-size: 28.8rem;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased; }
+
+.section {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden; }
+  .section .hovercar, .section .license-plate {
+    position: absolute; }
+
+/*# sourceMappingURL=style.scss.map */
